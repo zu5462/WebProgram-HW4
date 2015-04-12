@@ -134,17 +134,11 @@ li{
 	border: 0.05em solid;
 	background: rgba(246, 131, 160,0.7);
 	text-align: center;
-	height: 8em;
-}
-
-.form>h3{
-	margin-top:0;
-	padding-top: 1em;
-	margin-bottom: 1em;
 }
 
 .form>a:link,.form>a:active,.form>a:visited{
 	padding: 1em;
+	margin: 1em;
 	background: rgb(255, 216, 46);
 	-moz-border-radius: 15px;
  	border-radius: 15px;
