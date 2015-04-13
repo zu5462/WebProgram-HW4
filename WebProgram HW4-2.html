@@ -27,19 +27,15 @@
         <label for="name">Your name</label><br>
         <input type="text" id="name" placeholder="Enter Your Name" pattern="[A-Z][a-z]">
 
-        <p>What is your gender?</p> 
-        <div class="male btn btn-default">
+        <p>What is your gender?</p>       
+        <label class="male btn btn-default" for="male">
         <input type="radio" name="g" id="male" value="male">
-        <label for="male">
-        <i class="fa fa-mars"></i>
-         Male</label>
-     </div>
-        <div class="female btn btn-default">
+        &nbsp&nbsp<i class="fa fa-mars"></i>
+         Male</label>        
+        <label class="female btn btn-default" for="female">
         <input type="radio" name="g" id="female" value="female">
-        <label for="female">
-        <i class="fa fa-venus"></i>
+        &nbsp&nbsp<i class="fa fa-venus"></i>
         &nbsp Female</label>
-    </div>
 
         <br>
 
@@ -50,44 +46,41 @@
 
          <p>Which form of transport do you use?</p>
     <div class="transport">
-    <div class="walk btn btn-default">
+        <label class="walk btn btn-default" for="walk">
         <input type=checkbox name="transport" id="walk" value="walking">
-        <label for="walk"><i class="fa fa-male"></i>&nbsp
-        Walking</label>
-    </div>
-    <div class="bike btn btn-default">
-        <input type=checkbox name="transport" id="bike" value="bike">
-        <label for="bike"><i class="fa fa-bicycle"></i>&nbsp
-        Bike</label>
-    </div>    
-    <div class="motorcycle btn btn-default">    
-        <input type=checkbox name="transport" id="motorcycle" value="motorcycle">        
-        <label for="motorcycle"><i class="fa fa-motorcycle"></i>&nbsp
-        Motorcycle</label>
-    </div>
-    <div class="car btn btn-default">  
-        <input type=checkbox name="transport" id="Car" value="Car">
-        <label for="Car"><i class="fa fa-car"></i>&nbsp 
-        Car</label>
+        &nbsp&nbsp<i class="fa fa-male"></i>&nbsp Walking
+        </label>
 
-    </div>    
-    <div class="bus btn btn-default">
+        <label class="bike btn btn-default" for="bike">
+        <input type=checkbox name="transport" id="bike" value="bike">
+        &nbsp&nbsp<i class="fa fa-bicycle"></i>&nbsp Bike
+        </label>
+
+        <label class="motorcycle btn btn-default" for="motorcycle">
+        <input type=checkbox name="transport" id="motorcycle" value="motorcycle">        
+        &nbsp&nbsp<i class="fa fa-motorcycle"></i>&nbsp Motorcycle
+        </label>
+
+        <label class="car btn btn-default" for="Car">
+        <input type=checkbox name="transport" id="Car" value="Car">
+        &nbsp&nbsp<i class="fa fa-car"></i>&nbsp Car
+        </label>
+
+        <label class="bus btn btn-default" for="bus">
         <input type=checkbox name="transport" id="bus" value="bus">
-        <label for="bus"><i class="fa fa-bus"></i>&nbsp
-        Bus
+        &nbsp&nbsp<i class="fa fa-bus"></i>&nbsp Bus
         </label>
-    </div>    
-    <div class="metro btn btn-default">   
+
+        <label class="metro btn btn-default" for="metro">
         <input type=checkbox name="transport" id="metro" value="metro">
-         <label for="metro"><i class="fa fa-subway"></i>&nbsp
-        Metro
-         </label>
-    </div>    
-      <div class="train btn btn-default">
-        <input type=checkbox name="transport" id="train" value="train">
-        <label for="train"><i class="fa fa-train"></i>&nbsp
-        Train
+        &nbsp&nbsp<i class="fa fa-subway"></i>&nbsp Metro
         </label>
+
+        <label class="train btn btn-default" for="train">
+        <input type=checkbox name="transport" id="train" value="train">
+        &nbsp&nbsp<i class="fa fa-train"></i>&nbsp Train
+        </label>
+
     </div>
 </div>
 

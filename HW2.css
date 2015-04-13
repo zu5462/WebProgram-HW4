@@ -18,13 +18,13 @@ li{
 }
 
 .main{
+	color: white;
 	position: fixed;
 	top: 0;
 	left: 0;
-	border: 0.05em solid;
 	background: rgb(69, 207, 162);
 	text-align: center;
-	z-index:2	;
+	z-index:1;
 }
 
 .course{
@@ -88,8 +88,7 @@ li{
 	background: rgb(51, 93, 150);
 	-moz-border-radius: 15px;
  	border-radius: 15px;
- 	padding-top: 1em;
-	padding-bottom: 1em;
+ 	padding:1em 3em;
 
 } 
 
@@ -134,6 +133,7 @@ li{
 	border: 0.05em solid;
 	background: rgba(246, 131, 160,0.7);
 	text-align: center;
+	padding: 1em;
 }
 
 .form>a:link,.form>a:active,.form>a:visited{
